@@ -12,11 +12,9 @@ jobs:
       uses: actions/checkout@v2
     
     - name: FTP Deploy Action
-      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        FTP_SERVER: 66.29.132.56
+        FTP_SERVER: reactheme.com
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}     
-        METHOD: ftpes
-        PORT: 21
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}       
         remote_dir: /public_html/test/
