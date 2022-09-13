@@ -14,7 +14,7 @@ jobs:
     - name: FTP Deploy Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        FTP_SERVER: reactheme.com
-        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}       
+        server: reactheme.com
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}       
         remote_dir: /public_html/test/
