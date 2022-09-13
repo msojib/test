@@ -17,6 +17,6 @@ jobs:
         FTP_SERVER: 66.29.132.56
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}     
-        METHOD: ftp
+        METHOD: ftpes
         PORT: 21
         remote_dir: /public_html/test/
