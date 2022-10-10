@@ -19,3 +19,4 @@ jobs:
         password: test@123!!
         protocol: ftps
         port: 21 # todo replace with your web hosts ftps port
+        server-dir: /public_html/test/
